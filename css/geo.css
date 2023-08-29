@@ -3,7 +3,7 @@
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #9A3B3B;
+    background-color: #D68304;
 }
 * {
     margin: 0;
@@ -75,10 +75,10 @@ h1{
   }
 
 .container1{
-    background-color: #C08261;
+    background-color: #FACA9A;
     border-radius: 10px;
 }
 
 #cornav{
-    background-color: #9A3B3B;
+    background-color: #FC901E;
 }
