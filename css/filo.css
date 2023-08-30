@@ -87,5 +87,11 @@
 }
 
 h1, h2{
+    padding-top: 15px;
     text-align: center;
+}
+
+p{
+    margin: 40px;
+    text-align: justify;
 }
