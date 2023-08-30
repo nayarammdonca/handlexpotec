@@ -66,7 +66,7 @@
   }
 
 .container1{
-    background-color: rgb(218, 226, 255);
+    background-color: rgb(206, 211, 231);
     border-radius: 10px;
 }
 
@@ -75,13 +75,19 @@
 }
 
 ::-webkit-scrollbar-thumb{
-  background-color: #94a6ee;
+  background-color: #ababab;
 }
 
 #cornav{
-  background-color:#006c00 ;
+  background-color:#a6acc4 ;
 }
 
 h1, h2{
+  padding-top: 15px;
   text-align: center;
+}
+
+p{
+  margin: 40px;
+  text-align: justify;
 }
