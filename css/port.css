@@ -1,81 +1,15 @@
-
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none;
 }
+
 h1 {
   text-align: center;
-}
-.burger {
-  position: relative;
-  width: 40px;
-  height: 30px;
-  background: transparent;
-  cursor: pointer;
-  display: block;
-  padding-right: 10px;
-  margin-right: 180px;
-}
-
-.burger input {
-  display: none;
-}
-
-.burger span {
-  display: block;
-  position: absolute;
-  height: 4px;
-  width: 100%;
-  background: black;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  transform: rotate(0deg);
-  transition: 0.25s ease-in-out;
-}
-
-.burger span:nth-of-type(1) {
-  top: 0px;
-  transform-origin: left center;
-}
-
-.burger span:nth-of-type(2) {
-  top: 50%;
-  transform: translateY(-50%);
-  transform-origin: left center;
-}
-
-.burger span:nth-of-type(3) {
-  top: 100%;
-  transform-origin: left center;
-  transform: translateY(-100%);
-}
-
-.burger input:checked ~ span:nth-of-type(1) {
-  transform: rotate(45deg);
-  top: 0px;
-  left: 5px;
-}
-
-.burger input:checked ~ span:nth-of-type(2) {
-  width: 0%;
-  opacity: 0;
-}
-
-.burger input:checked ~ span:nth-of-type(3) {
-  transform: rotate(-45deg);
-  top: 28px;
-  left: 5px;
 }
 
 .container1 {
   background-color: #c08261;
   border-radius: 10px;
-}
-
-#cornav {
-  background-color: #9a3b3b;
 }
 
 ::-webkit-scrollbar {
@@ -86,79 +20,11 @@ h1 {
   background-color: #9a3b3b;
 }
 
-.sidebar {
-  position: fixed;
-  width: 240px;
-  left: -240px;
-  height: 100%;
-  background: #0000;
-  transition: all 0.5s ease;
-}
-.sidebar header {
-  font-size: 28px;
-  color: white;
-  line-height: 70px;
-  text-align: center;
-  background: #1b1b1b;
-  user-select: none;
-  font-family: "Montserrat", sans-serif;
+#navcor{
+  background: #c08261;
 }
 
-.sidebar a {
-  display: block;
-  height: 65px;
-  width: 100%;
-  color: white;
-  line-height: 65px;
-  padding-left: 30px;
-  box-sizing: border-box;
-  border-bottom: 1px solid black;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-left: 5px solid transparent;
-  font-family: "Open Sans", sans-serif;
-  transition: all 0.5s ease;
-}
-a.active,
-a:hover {
-  border-left: 5px solid #593632;
-  color: #b93632;
-  .sidebar a i {
-    font-size: 23px;
-  }
-  margin-right: 16px;
-  .sidebar a span {
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  }
+#cordrop{
+  background: #c08261;
 }
 
-#check {
-  display: none;
-}
-
-label #btn,
-label #cancel {
-  position: absolute;
-  cursor: pointer;
-  color: white;
-  border-radius: 5px;
-  border: 1px solid #262626;
-  margin: 15px 30px;
-  font-size: 28px;
-  background: #262626;
-  height: 45px;
-  width: 45px;
-  text-align: center;
-  line-height: 45px;
-  transition: all 0.5s ease;
-}
-label #cancel {
-  opacity: 0;
-  visibility: hidden;
-}
-#check:checked ~ .sidebar {
-  left: 0;
-}
-#check:checked label #btn {
-  margin-left: 245px;
-}
