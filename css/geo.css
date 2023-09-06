@@ -24,6 +24,9 @@ h1{
     border-radius: 10px;
 }
 
-#cornav{
+#navcor{
+    background-color: #FC901E;
+}
+#cordrop{
     background-color: #FC901E;
 }
