@@ -17,7 +17,7 @@
 }
 
 #cornav{
-  background-color:#a6acc4 ;
+  background-color:rgb(180, 189, 224) ;
 }
 
 h1, h2{
@@ -28,4 +28,8 @@ h1, h2{
 p{
   margin: 40px;
   text-align: justify;
+}
+
+#cordrop{
+  background-color: rgb(165, 175, 219)
 }
