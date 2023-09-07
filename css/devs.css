@@ -8,6 +8,7 @@
 .container1{
     background-color: rgb(206, 206, 206);
     border-radius: 10px;
+    padding-bottom: 30px;
 }
 
 ::-webkit-scrollbar{
@@ -35,4 +36,9 @@ p{
 #cordrop{
   background-color:#c2c1c1 ;
 
+}
+
+img{
+  float: right;
+  width: 300px;
 }
