@@ -42,7 +42,7 @@ p{
   float: right;
   width: 300px;
   border-radius: 10px;
-
+  margin: 40px;
 }
 
 #img2{
@@ -50,5 +50,12 @@ p{
   width: 250px;
   border-radius: 10px;
   margin: 40px;
+}
 
+#img3{
+  float: right;
+  width: 250px;
+  border-radius: 10px;
+  padding-right: 15px;
+  padding-left: 20px;
 }
