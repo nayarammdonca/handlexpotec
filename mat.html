@@ -2,39 +2,50 @@
 <html lang="pt-br">
   <head>
     <title>HDLX | Matemática</title>
-    <!-- Required meta tags -->
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/mat.css">
-
-    <!-- Bootstrap CSS -->
+    <link rel="icon" type="imagem/png" href="img/handlex.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light" id="cornav">
-      <label class="burger" for="burger">
-        <input type="checkbox" id="burger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-      <img src="img/ALOGO.png" alt="" width="60px" height="60px">
-      <a class="navbar-brand" href="#"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <a class="navbar-brand" href="#">
+        <img src="img/handlex.png" width="40" height="40" alt="">
+      </a>
+      <a class="navbar-brand text-white" href="#">HandleX</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+    
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Matérias
+            </a>
+            <div class="dropdown-menu"  id="cordrop">
+              <a class="dropdown-item" href="mat.html">Matemática</a>
+              <a class="dropdown-item" href="fis.html">Física</a>
+              <a class="dropdown-item" href="quim.html">Química</a>
+              <a class="dropdown-item" href="bio.html">Biologia</a>
+              <a class="dropdown-item" href="port.html">Português </a>
+              <a class="dropdown-item" href="lit.html">Literatura</a>
+              <a class="dropdown-item" href="hist.html">História</a>
+              <a class="dropdown-item" href="geo.html">Geografia</a>
+              <a class="dropdown-item" href="filo.html">Filosofia</a>
+            </div>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="mat.html">Início <span class="sr-only"></span></a>
+            <a class="nav-link  text-white" href="devs.html">Devs <span class="sr-only">(página atual)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="devs.html">Devs</a>
+            <a class="nav-link text-white" href="#">Conta</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Conta</a>
-          </li>
+         
         </ul>
+       <h6 class="text-white">Seja bem-vindo(a)</h6>
       </div>
     </nav>
     <br>
@@ -72,17 +83,6 @@
             </p>
         </div>
       </section>
-      <aside class="container1">
-        <h2>Quer saber mais?</h2>
-        <p>No vídeo a seguir, o professor Paulo Pereira do canal "Equaciona Com Paulo Pereira" explica como resolver uma
-          função seno. </p>
-        <p>Acesse o vídeo clicando <a href="https://youtu.be/o0xUiH93siU?si=1Jb3kN1TqBhDVBQK" target="_blank">aqui.</a>
-          Ou, se preferir, veja uma prévia a seguir:</p>
-        <iframe width="200" height="150" src="https://www.youtube.com/embed/o0xUiH93siU?si=TDBX9ZhY7gLWEkRG"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-      </aside>
       <br><br>
       <section class="container1">
         <div class="container">
@@ -112,11 +112,6 @@
             </p>
         </div>
       </section>
-      <aside class="container1">
-        <h2>Pierre-Simon Laplace</h2>
-        <p>Pierre-Simon Laplace foi um renomado matemático, astrônomo e físico francês do século XVIII e início do século XIX. Nascido em 1749, Laplace é conhecido por suas contribuições significativas em áreas como matemática pura, teoria da probabilidade, mecânica celeste e física matemática. Ele desenvolveu o conceito de "determinismo laplaciano", que propunha que, se conhecêssemos todas as leis físicas e as posições de todas as partículas em um dado momento, poderíamos prever completamente o futuro e o passado do universo.</p>
-        <img src="" alt="Laplace">
-      </aside>
 <br><br>
 <section class="container1">
   <div class="container">
@@ -138,8 +133,16 @@
   </div>
   </div>
       
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
