@@ -10,21 +10,25 @@
 ::-webkit-scrollbar-thumb{
     background-color: #4980D1;
 }
-* {
-    margin: 0;
-    padding: 0;
-}
+
 h1{
+    padding-top: 15px;
     text-align: center;
 }
 
+p{
+    margin: 40px;
+    text-align: justify;
+  }
+
 .container1{
-    background-color: #7BD5EB;
+    background-color: #8a9fd5;
     border-radius: 10px;
+    padding-bottom: 50px;
 }
 
 #navcor{
-    background-color: #336699;
+    background-color: #465986;
 }
 #cordrop{
     background-color: #336699;
