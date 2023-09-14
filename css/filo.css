@@ -41,5 +41,11 @@ p{
 
 #cordrop{
     background-color: #92847e;
-
 }
+
+#fundo{
+    background-color: #51443e ;
+    z-index: 7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
