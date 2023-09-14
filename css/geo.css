@@ -10,18 +10,21 @@
 ::-webkit-scrollbar-thumb{
     background-color: #D68304;
 }
-* {
-    margin: 0;
-    padding: 0;
-}
+
 h1{
-    text-align: center;
+    padding-top: 15px;
+  text-align: center;
 }
 
+p{
+    margin: 40px;
+    text-align: justify;
+  }
 
 .container1{
     background-color: #FACA9A;
     border-radius: 10px;
+    padding-bottom: 50px;
 }
 
 #navcor{
