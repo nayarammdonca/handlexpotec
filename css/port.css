@@ -4,12 +4,19 @@
 }
 
 h1 {
+  padding-top: 15px;
   text-align: center;
 }
 
+p{
+  margin: 40px;
+  text-align: justify;
+}
+
 .container1 {
-  background-color: #c08261;
+  background-color: #cc6565;
   border-radius: 10px;
+  padding-bottom: 50px;
 }
 
 ::-webkit-scrollbar {
@@ -21,10 +28,10 @@ h1 {
 }
 
 #navcor{
-  background: #c08261;
+  background: #753636;
 }
 
 #cordrop{
-  background: #c08261;
+  background: #8e4444;
 }
 

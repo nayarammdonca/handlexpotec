@@ -6,6 +6,7 @@
 .container1{
     background-color: rgb(206, 211, 231);
     border-radius: 10px;
+    padding-bottom: 50px;
 }
 
 ::-webkit-scrollbar{
