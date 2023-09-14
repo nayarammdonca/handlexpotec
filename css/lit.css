@@ -3,17 +3,23 @@
     padding: 0;
 }
 h1{
+    padding-top: 15px;
     text-align: center;
 }
 
+p{
+    margin: 40px;
+    text-align: justify;
+  }
 
 .container1{
-    background-color: #6B2028;
+    background-color: #a8636a;
     border-radius: 10px;
+    padding-bottom: 40px;
 }
 
 #cornav{
-    background-color: #6B000B;
+    background-color: #622026;
 }
 
 
