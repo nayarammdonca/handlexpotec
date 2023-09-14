@@ -3,18 +3,28 @@
   padding: 0;
 }
 h1{
+  padding-top: 15px;
   text-align: center;
+}
+
+p{
+  margin: 40px;
+  text-align: justify;
 }
 
 .container1{
   background-color: #FFE4B5;
   border-radius: 10px;
+  padding-bottom: 50px;
 }
 
 #cornav{
   background-color: #A0522D;
 }
 
+#cordrop{
+  background-color: #a46b50;
+}
 
 ::-webkit-scrollbar{
   width: 10px;
