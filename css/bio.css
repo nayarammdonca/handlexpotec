@@ -2,24 +2,35 @@
     margin: 0;
     padding: 0;
   }
-  h1{
+
+  h1, h2{
+    padding-top: 15px;
     text-align: center;
   }
   
+  p{
+    margin: 40px;
+    text-align: justify;
+  }
   
   #cornav{
     background-color: #3D663C;
   }
   
-  
+#cordrop{
+  background-color: #4f5e4f;
+}
+
   ::-webkit-scrollbar{
     width: 10px;
   }
   
   ::-webkit-scrollbar-thumb{
-    background-color: #4CFF3A;
+    background-color: #2f452d;
   }
+
   .container1{
     background-color:#B3DCB5;
     border-radius: 10px;
+    padding-bottom: 50px;
   }
