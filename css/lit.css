@@ -26,6 +26,12 @@ p{
     background-color: #57272b;
 }
 
+#fundo{
+    background-color: #622026;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
 ::-webkit-scrollbar{
     width: 10px;
 }
