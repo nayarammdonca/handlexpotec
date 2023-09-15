@@ -33,3 +33,9 @@ p{
 #cordrop{
     background-color: #fea464;
 }
+
+#fundo{
+  background-color: #dc8445;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
