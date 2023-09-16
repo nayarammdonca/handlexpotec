@@ -34,3 +34,9 @@
     border-radius: 10px;
     padding-bottom: 50px;
   }
+
+  #fundo{
+    background-color: #3D663C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
